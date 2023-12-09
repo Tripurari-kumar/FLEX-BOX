@@ -14,7 +14,11 @@
         display: flex;
         flex-direction: row;
         height: 800px;
+/*      will take the next line while responsive 
+        ****
+        *       */
         flex-wrap: wrap;
+        
         /* justify-content: start;
         align-items: start;
         align-content: center; */
@@ -29,7 +33,9 @@
       #box1 {
         background-color: aqua;
         /* order: 500; */
-        /* flex-shrink: 4; */
+        
+/*          will shrink at 4x speed as others while responsive  by flex-shrink: 4
+        /* flex-shrink: 4; */ */
         /* flex-grow: 1; */
         /* align-self: end; */
       }
@@ -44,7 +50,9 @@
       #box4 {
         background-color: brown;
         /* order: -1; */
-        /* flex-grow: 1; */
+
+/*          will grow at 5x speed as others while growing wideing responsive by  flex-grow: 5;
+        /* flex-grow: 5; */ 
         /* flex-basis: 400px; */
       }
     </style>
